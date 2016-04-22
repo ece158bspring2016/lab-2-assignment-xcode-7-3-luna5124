@@ -18,7 +18,7 @@
 		257F50531CC9F5C80046B7C1 /* PlayerViewComtrollerTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 257F50511CC9F5C80046B7C1 /* PlayerViewComtrollerTableViewController.xib */; };
 		257F50551CC9F6280046B7C1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257F50541CC9F6280046B7C1 /* Player.swift */; };
 		257F50571CC9F7390046B7C1 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257F50561CC9F7390046B7C1 /* SampleData.swift */; };
-		257F505B1CC9FD890046B7C1 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257F505A1CC9FD890046B7C1 /* PlayerCell.swift */; };
+		257F505D1CCA01F20046B7C1 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257F505C1CCA01F20046B7C1 /* PlayerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		257F50511CC9F5C80046B7C1 /* PlayerViewComtrollerTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerViewComtrollerTableViewController.xib; sourceTree = "<group>"; };
 		257F50541CC9F6280046B7C1 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		257F50561CC9F7390046B7C1 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
-		257F505A1CC9FD890046B7C1 /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerCell.swift; path = ../PlayerCell.swift; sourceTree = "<group>"; };
+		257F505C1CCA01F20046B7C1 /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerCell.swift; path = "Lab#1/PlayerCell.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +87,7 @@
 		257F50161CC9EE850046B7C1 = {
 			isa = PBXGroup;
 			children = (
+				257F505C1CCA01F20046B7C1 /* PlayerCell.swift */,
 				257F50211CC9EE850046B7C1 /* Lab#1 */,
 				257F50361CC9EE860046B7C1 /* Lab#1Tests */,
 				257F50411CC9EE860046B7C1 /* Lab#1UITests */,
@@ -111,7 +112,6 @@
 				257F50241CC9EE850046B7C1 /* ViewController.swift */,
 				257F50261CC9EE850046B7C1 /* Main.storyboard */,
 				257F50501CC9F5C80046B7C1 /* PlayerViewComtrollerTableViewController.swift */,
-				257F505A1CC9FD890046B7C1 /* PlayerCell.swift */,
 				257F50541CC9F6280046B7C1 /* Player.swift */,
 				257F50561CC9F7390046B7C1 /* SampleData.swift */,
 				257F50511CC9F5C80046B7C1 /* PlayerViewComtrollerTableViewController.xib */,
@@ -279,7 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				257F505B1CC9FD890046B7C1 /* PlayerCell.swift in Sources */,
+				257F505D1CCA01F20046B7C1 /* PlayerCell.swift in Sources */,
 				257F50551CC9F6280046B7C1 /* Player.swift in Sources */,
 				257F50521CC9F5C80046B7C1 /* PlayerViewComtrollerTableViewController.swift in Sources */,
 				257F50251CC9EE850046B7C1 /* ViewController.swift in Sources */,
@@ -509,6 +509,7 @@
 				257F50491CC9EE860046B7C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		257F504A1CC9EE860046B7C1 /* Build configuration list for PBXNativeTarget "Lab#1Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +518,7 @@
 				257F504C1CC9EE860046B7C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		257F504D1CC9EE860046B7C1 /* Build configuration list for PBXNativeTarget "Lab#1UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +527,7 @@
 				257F504F1CC9EE860046B7C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
